@@ -1,0 +1,140 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6.5rem;
+}
+.login_box {
+    width: 30%;
+    max-height: 42rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.box {
+    height: 35rem;
+}
+
+.login_box h2 {
+    font-size: 2.25rem;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+}
+
+form input {
+    border: none;
+    border: 1px solid #beb9b9;
+    background: transparent;
+    outline: none;
+    height: 4rem;
+    width: 100%;
+    margin-bottom: 0.5rem;
+    color: #595959;
+    font-size: 1.4rem;
+}
+
+form p {
+    margin: 0;
+    padding: 0;
+    font-weight: 200;
+    font-size: 1.6rem;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 0.8rem;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    outline: none;
+    border: none;
+    background: #883799;
+    font-size: 1.8rem;
+    border-radius: 1.5rem;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+.nav {
+    position: absolute;
+    top: 0;
+}
+.button {
+    position: fixed;
+    right: 20px;
+    width: 10%;
+    object-fit: contain;
+}
+h1 {
+    display: inline-block;
+    position: absolute;
+    right: 25rem;
+    margin-top: 2.9rem;
+    margin-bottom: 2rem;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.error {
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+    color: red;
+}
+
+@media (max-width: 998px) {
+    html {
+        font-size: 55%;
+    }
+    .login_box {
+        width: 30%;
+        height: 42rem;
+    }
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 55%;
+    }
+    .login_box {
+        width: 50%;
+        height: 42rem;
+    }
+    .button {
+        width: 18%;
+    }
+}
+@media (max-width: 450px) {
+    html {
+        font-size: 55%;
+    }
+    .login_box {
+        width: 70%;
+        height: 42rem;
+    }
+    .button {
+        width: 28%;
+    }
+
+    .login_box h2 {
+        margin-top: 60px;
+    }
+}
